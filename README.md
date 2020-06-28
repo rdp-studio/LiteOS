@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/LiteOS/LiteOS.svg?branch=develop)](https://travis-ci.org/LiteOS/LiteOS)
+[![Build Status](https://travis-ci.com/rdp-studio/LiteOS.svg?branch=master)](https://travis-ci.com/rdp-studio/LiteOS)
 
 ## Huawei LiteOS简介
 
