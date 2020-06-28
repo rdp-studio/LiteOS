@@ -27,5 +27,6 @@ deploy:
   file:
     - build.zip
   on:
+    tags: true
     all_branches: true
 
