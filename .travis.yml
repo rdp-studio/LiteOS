@@ -17,4 +17,16 @@ script:
   -  cd targets/Cloud_STM32F429IGTx_FIRE/GCC
   -  make
 
+before_deploy:
+  - zip -r build.zip build
+
+deploy:
+  provider: releases
+  api_key: $USERTOKEN
+  skip_cleanup: true
+  file:
+    - build.zip
+  on:
+    tags: true
+    all_branches: true
 
